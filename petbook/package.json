@@ -1,0 +1,147 @@
+{
+  "name": "petbook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2022,
+      "sourceType": "module"
+    },
+    "rules": {
+      "arrow-spacing": [
+        "warn",
+        {
+          "before": true,
+          "after": true
+        }
+      ],
+      "no-constant-condition": 1,
+      "brace-style": [
+        "error",
+        "allman",
+        {
+          "allowSingleLine": true
+        }
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ],
+      "comma-spacing": [
+        "error",
+        {
+          "after": true
+        }
+      ],
+      "curly": [
+        "error",
+        "multi-or-nest"
+      ],
+      "dot-location": [
+        "error",
+        "property"
+      ],
+      "handle-callback-err": "off",
+      "indent": [
+        "warn",
+        4,
+		{
+			"SwitchCase": 1
+		}
+      ],
+      "max-nested-callbacks": [
+        "error",
+        {
+          "max": 4
+        }
+      ],
+      "max-statements-per-line": [
+        "error",
+        {
+          "max": 2
+        }
+      ],
+      "no-console": "off",
+      "no-empty-function": "error",
+      "no-floating-decimal": "error",
+      "no-shadow": [
+        "warn",
+        {
+          "allow": [
+            "err",
+            "resolve",
+            "reject"
+          ]
+        }
+      ],
+      "no-redeclare": 1,
+      "no-unused-vars": 0,
+      "no-var": "warn",
+      "no-lonely-if": "off",
+      "no-undef": "off",
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "prefer-const": "warn",
+      "quotes": [
+        "error",
+        "single",
+        {
+            "allowTemplateLiterals":true
+        }
+      ],
+      "semi": "error",
+      "no-trailing-spaces": "off",
+      "space-before-blocks": [
+        "error",
+        "never"
+      ],
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "never",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ],
+      "space-in-parens": [
+        "error",
+        "never"
+      ],
+      "yoda": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
